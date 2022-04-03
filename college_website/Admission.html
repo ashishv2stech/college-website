@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .footer {
+        margin-top: 50px;
+        text-align: center;}
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission</title>
+</head>
+<body  background="bgall.jpg">
+    <h1 align="center"><font color="black">college website</font></h1>
+    <table>
+        <tr>
+            <td>
+                <img><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTftAQLzCxV9psZohHD0pHKk3t6klez1NAq8g&usqp=CAU" width="90" height="60"/>
+             </td>
+             <td width="100%"> 
+                <marquee behavior=alternate  bgcolor="cyan"><h3 ><font><a href="Admission.html" onMouseOver="this.style.color='red'"  onMouseOut="this.style.color='black'">Admission open now !!!</a></font></h3></marquee>
+             </td>
+        </tr>
+    </table>
+   
+    <table cellpadding="10px" cellspacing="20px" align="center" width="60%" >
+        
+        <tr >
+           
+            <th><a href="collegehome.html" target="self" onMouseOver="this.style.color='red'"  onMouseOut="this.style.color='black'"><h2>Home</h2></a></th>
+            <th><a href="Academics.html" target="blank" onMouseOver="this.style.color='red'"  onMouseOut="this.style.color='black'"><h2>Academics</h2></a></th>
+            <th><a href="Admission.html" target="blank" onMouseOver="this.style.color='red'"  onMouseOut="this.style.color='black'"><h2>Admission</h2></a></th>
+            <th><a href="Gallery.html" target="blank" onMouseOver="this.style.color='red'"  onMouseOut="this.style.color='black'"><h2>Gallery</h2></a></th>
+        </tr>
+    </table>
+
+    <div class="f">
+        <h3 align="center">Student admission form</h3>
+        <form name="frm" method="get" action="student_data.html" align="center">
+            <fieldset  >
+                <legend>Student Info:</legend>
+                Name: <input type="text" name="name"><br><br>
+                Date of birth: <input type=date><br><br>
+                Address <textarea rows=5 cols=18></textarea><br><br>
+                Telephone :- <input type=tel name=utel pattern="[0-9]{3}[0-9]{3}[0-9]{4}"placeholder="1234567890" required><br><br>
+                Email: <input type="text"><br><br>
+                Qualification <select name="qual">
+                    <option>BSC</option>
+                    <option>MSC</option>
+                    <option>BCA</option>
+                    <option>MCA</option>
+                    <option>BE</option>
+                    </select><br><br>
+    
+                Semester<select name="sem">
+                        <option>1st semester</option>
+                        <option>2ndsemester</option>
+                        <option>3rd semester</option>
+                        <option>4th semester</option>
+                        <option>5th semester</option>
+                        <option>6th semester</option>
+                        <option>7th semester</option>
+                        <option>8th semester</option>
+                        </select><br><br>
+    
+                Gender <input type=radio name="rb1" value="Male"> Male
+                       <input type=radio name="rb1" value="FeMale"> FeMale
+                       <br><br>
+    
+                Hobbies <input type=checkbox name="cb1" value="Reading">Reading1
+                       <input type=checkbox name="cb1" value="Swimming">Swimming
+                       <input type=checkbox name="cb1" value="Playing">Playing
+                       <br><br>
+    
+                       <input type=Submit value="submit">
+                       <input type=reset>
+               
+             </fieldset>
+
+        </form>
+       
+
+    </div>
+    <div class="footer" style="height: 30px; background-color: #FFD801 "><font ><h2>college website</h2></font></div>
+    
+</body>
+</html>  
